@@ -1,0 +1,61 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "account master",
+				"folderPath": "INDIAN BANK",
+				"container": "tusharablob"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "101",
+				"type": "String"
+			},
+			{
+				"name": "Raveena",
+				"type": "String"
+			},
+			{
+				"name": "USA",
+				"type": "String"
+			},
+			{
+				"name": "BR1",
+				"type": "String"
+			},
+			{
+				"name": "SB",
+				"type": "String"
+			},
+			{
+				"name": "2018-12-23 00:00:00.0000000",
+				"type": "String"
+			},
+			{
+				"name": "1000.00006",
+				"type": "String"
+			},
+			{
+				"name": "1000.00007",
+				"type": "String"
+			},
+			{
+				"name": "O",
+				"type": "String"
+			}
+		]
+	}
+}
